@@ -1,0 +1,12 @@
+Este projeto mede dados de temperatura e densidade a partir de um sensor DHT11
+e envia ao whatsapp do usuário através de um BOT com sua chave de API.
+
+para usar é preciso acessar o site: 
+https://www.callmebot.com/blog/free-api-whatsapp-messages/
+e criar uma conta solicitando a chave API colocando no espaço solicitado no código.
+
+Bibliotecas:
+- DHT sensor library, Author: Adafruit
+- HttpClient, Author: Adrian McEwen
+- UrlEncode, Author: Masayuki Sugahara
+- WiFi.h (padrão)
