@@ -11,8 +11,8 @@ DHT dht(DHTPIN, DHTTYPE);
 const char* ssid = "inserir nome da rede wifi";
 const char* password = "inserir senha do wifi";
 
-String phoneNumber = "+5519982219011"; //aqui insere-se o número de telefone
-String apiKey = "7138013"; //inserir o numero da api gerado pelo site callmebot
+String phoneNumber = "+55 DDD + numero"; //aqui insere-se o número de telefone
+String apiKey = "numero de api"; //inserir o numero da api gerado pelo site callmebot
 
 void mandarMensagem(String messagem) {
 
